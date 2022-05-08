@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+
+nav {
+    width: 100%;
+    background-color: #1a1a1c;
+    border-top: 1px solid #353535;
+    border-bottom: 1px solid #353535;
+    display: inline-flex;
+}
+
+.userPfp{
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 35px;
+    height:35px;
+}
+
+#logo {
+    width: 100px;
+    margin: .5% 1%;
+    border: none;
+}
+
+#nav-communities {
+    margin: 5px 0px;
+    background-color: #1a1a1c;
+    color: #e8d2d5;
+    width: 10%;
+}
+
+#nav-profile {
+    margin: 5px 0px;
+    background-color: #1a1a1c;
+    color: #e8d2d5;
+    width: 10%;
+}
+
+
+select#xyz {
+    border: none;
+}
+
+hr {
+    margin: 10px 5px;
+    background-color: #1a1a1c;
+    opacity: 40%;
+}
+
+.content-container{
+    width: 65%;
+    height: 5vh;
+    float: left;
+    margin-left: 20%;
+    margin-top: 1%;
+    display: inline-flex;
+} 
+
+.left-content{
+    background-color: #1a1a1c;
+    width: 50%;
+    height: 20vh;
+    float: left;
+}
+
+.right-content{
+    background-color: #1a1a1c;
+    height: 20vh;
+    margin-left: 1%;
+    flex-basis: 30%;
+    float: left;
+}
+
+.yellow-div{
+    background-color: yellow;
+    width: 4%;
+    margin: 7px 6px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.fa-house{
+    color: #e8d2d5;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.fa-circle-arrow-down{
+    transform: rotate(-135deg);
+}
+
+.arrow-highlight{
+    margin: 5px 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.highlight{
+    margin: 7px 4px;
+    padding-top: 10px;
+    width: 30px;
+    text-align: center;
+}
+
+.highlight:hover{
+    background: #272729;
+    cursor: pointer;
+}
+
+.perma-highlight{
+    background: #272729;
+    border-radius: 200px;
+}
+
+.perma-highlight:hover{
+    background: #474749;
+}
+
+.fa-solid{
+    color: #e8d2d5;
+    font-size: 20px;
+}
+
+.input{
+    border-radius: 100px;
+    height: 10px;
+}
+
+.fg--search {
+    background: #272729;
+    position: relative;
+    width: 43%;
+    margin: 5px 1%;
+    height: 10px;
+  }
+  
+  .fg--search input {
+    width: 100%;
+    padding: 20px 60px 20px 20px;
+    display: block;
+    background-color: #272729;
+    border: none;
+  }
+  
+  .fg--search button {
+    color: #e8d2d5;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1.5% 3%;
+    z-index: 2;
+  }
